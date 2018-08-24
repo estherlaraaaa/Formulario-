@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro </title>
+</head>
+<body>
+    <h1>REGISTER</h1>
+    <H2>Please fill data</H2>
+
+    <form action="formulario de registro .html" method="GET">
+    <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">First Name</label>
+            <input type="text" name="name" id="name" required placeholder="Esther">
+
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" required placeholder="Lara"><br>
+            <br>
+
+            <label for="date">Birthday</label>
+            <input type="date" name="date" id="date" required><br>
+            <br>
+
+            <label for="Favorite Animal">Favorite Animal</label>
+            <input type="text" name="Favorite Animal" id="Favorite Animal"><br>
+            <br>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Account</legend>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required><br>
+        <br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Write your password"  required pattern=".{5,10}"
+        title="5 to 10 characters">
+
+        <label for="password">Confirm Password</label>
+        <input type="password" name="password" id="password" placeholder="Repeat Password"  required pattern=".{5,10}"
+        title="5 to 10 characters"><br>
+        <br>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Contact</legend>
+
+        <label for="Address">Address</label>
+        <input type="text" name="Address" id="Address" required><br>
+        <br>
+
+        <label for="City">City</label>
+        <select id="Select City:">
+                <option value="">--Please choose an option--</option>
+                <option value="sivar">San Salvador</option>
+                <option value="usa">Washington D. C.</option>
+                <option value="canada">Ottawa</option>
+                <option value="argentina">Buenos Aires</option>
+                <option value="brasil">Brasilia</option>
+                <option value="españa">Madrid</option>
+            </select>
+
+        <label for="Country">Country</label>
+        <select id="Select Country:">
+                <option value="">--Please choose an option--</option>
+                <option value="sivar">El Salvador</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="argentina">Argentina</option>
+                <option value="brasil">Brasil</option>
+                <option value="españa">España</option>
+            </select><br>
+        <br>
+
+        <label for="tel">Number Phone</label>
+        <input type="tel" name="tel" id="tel"><BR>
+        <br> 
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Others</legend>
+
+        <label for="father">Father's Name</label>
+        <input type="text" name="father" id="father"><br>
+        <br>
+
+        <label for="mother">Mother's Name</label>
+        <input type="text" name="mother" id="mother"><br>
+        <br>
+
+        <label for="sickness">Have some disease?</label>
+        <input type="text" name="sickness" id="sickness"><br>
+        <br> 
+
+    </fieldset>
+
+    <div>
+        <input type="submit" value="SEND">
+    </div>
+
+</form>
+            
+</body>
+</html>
